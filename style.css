@@ -404,12 +404,12 @@ input
 
     .bag_text
     {
-        font-size: 20px;
+        font-size: 4vw;
     }
 
     .shoes_text
     {
-        font-size: 20px;
+        font-size: 4vw;
     }
 
     .ship
@@ -420,26 +420,26 @@ input
         display: flex;
         width: 80%;
         justify-content: space-between;
-        font-size: 4vw;
+        font-size: 3.5vw;
         /* background-color: #505050; */
     }
 
     .Total
     {
-        margin-top: 40px;
+        margin-top: 20px;
         font-weight: bold;
         margin-left: 30px;
         display: flex;
         width: 40vw;
-        font-size: 4vw;
+        font-size: 3.5vw;
         justify-content: space-between;
     }
 
     #TOTAL
     {
         width: 70%;
-        margin-left: 120%;
-        font-size: 4vw;
+        margin-left: 110%;
+        font-size: 3.5vw;
     }
 
     .input
