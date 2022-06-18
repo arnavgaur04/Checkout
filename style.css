@@ -1,0 +1,452 @@
+.Whole
+{
+    display: flex;
+    justify-content: space-around;
+}
+
+.container
+{
+    /* height: 60vw; */
+    width: 35vw;
+    /* margin-left: 12%; */
+    /* max-height: 70vh; */
+    /* background-color: blueviolet; */
+}
+
+.top_text
+{
+    /* background-color: aqua; */
+    font-size: 20px;
+    color: #505050;
+    margin-top: 50px;
+    width: max-content;
+    margin-left: 9%;
+}
+
+.info
+{
+    /* background-color: aquamarine; */
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.shipping
+{
+    /* background-color: aquamarine; */
+    margin-top: 50px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.email
+{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #505050;
+    font-weight: bold;
+}
+
+.phone
+{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #505050;
+}
+
+.input_text
+{
+    margin-top: 6px;
+}
+
+.name
+{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #505050;
+    font-weight: bold;
+}
+
+.address
+{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #505050;
+    font-weight: bold;
+}
+
+.city
+{
+    font-size: 12px;
+    margin-top: 20px;
+    color: #505050;
+    font-weight: bold;
+}
+
+.country
+{
+    font-size: 12px;
+    width: 50%;
+    margin-top: 10px;
+    color: #505050;
+    font-weight: bold;
+    /* background-color: aqua; */
+}
+
+.code
+{
+    font-size: 12px;
+    width: 50%;
+    margin-top: 10px;
+    color: #505050;
+    font-weight: bold;
+    /* background-color: antiquewhite; */
+}
+
+.duo
+{
+    margin-top: 15px;
+    color: #505050;
+    font-weight: bold;
+    display: flex;
+}
+
+.save
+{
+    margin-top: 30px;
+    font-size: 13px;
+    display: flex;
+}
+
+.save_text
+{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+:-ms-input-placeholder
+{
+    color: #8b8b8b;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::-ms-input-placeholder
+{
+    color: #8b8b8b;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+::placeholder
+{
+    color: #8b8b8b;
+    letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+
+input
+{
+    padding-left: 50px;
+    font-weight: 600;
+    font-size: 13px;
+    color: #000000;
+}
+
+.Email
+{
+    background-image: url("email-removebg-preview.png");
+    background-size: 45px;
+    background-repeat: no-repeat;
+    background-position: 1%;
+}
+
+.Phone
+{
+    background-image: url("phone.png");
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: 3%;
+}
+
+.Name
+{
+    background-image: url("person-removebg-preview.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 3%;
+}
+
+.Address
+{
+    background-image: url("home.png");
+    background-size: 23px;
+    background-repeat: no-repeat;
+    background-position: 3%;
+}
+
+.City
+{
+    background-image: url("building-icon.png");
+    background-size: 17px;
+    background-repeat: no-repeat;
+    background-position: 3%;
+}
+
+.Country
+{
+    background-image: url("globe-removebg-preview.png");
+    background-size: 20px;
+    background-repeat: no-repeat;
+    background-position: 7%;
+}
+
+.Code
+{
+    background-image: url("postal-code-removebg-preview.png");
+    background-size: 40px;
+    background-repeat: no-repeat;
+    background-position: 3%;
+}
+
+.submit
+{
+    margin-left: 60%;
+    font-size: 30px;
+    border-radius: 12px;
+}
+
+input[type=checkbox] {
+    zoom: 2;
+}
+
+.product
+{
+    /* position: absolute; */
+    width: 25vw;
+    height: 35vw;
+    /* left: 60%; */
+    margin-top: 170px;
+    background: #F2F2F2;
+    border-radius: 12px;
+    /* background-color: #505050; */
+}
+
+.product_one
+{
+    margin-top: 7%;
+    height: 25%;
+    width: 100%;
+    display: flex;
+}
+
+.product_two
+{
+    margin-top: 7%;
+    height: 25%;
+    width: 100%;
+    display: flex;
+}
+
+.bag
+{
+    height: 100%;
+    width: 45%;
+    margin-left: 7%;
+    border-radius: 12px;
+    background-image: url("backpack.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.shoes
+{
+    height: 100%;
+    width: 45%;
+    margin-left: 7%;
+    border-radius: 12px;
+    background-image: url("shoes.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.bag_text
+{
+    margin-top: 2px;
+    text-align: center;
+    width: 55%;
+    font-size: 1vw;
+    font-weight: bold;
+    /* background-color: aquamarine; */
+}
+
+.shoes_text
+{
+    margin-top: 2px;
+    text-align: center;
+    width: 55%;
+    font-size: 1vw;
+    font-weight: bold;
+    /* background-color: antiquewhite; */
+}
+
+.Quantity
+{
+    position: relative;
+    top: 20%;
+}
+
+.price
+{
+    margin-top: 10%;
+}
+
+.footer
+{
+    text-align: center;
+    margin-top: 200px;
+    color: #BDBDBD;
+}
+
+.input 
+{
+    height: 3vw;
+}
+
+button
+{
+    border-radius: 5px;
+    border: none;
+    background-color: #E0E0E0;
+}
+
+input
+{
+    background-color: transparent;
+    border: none;
+    width: max-content;
+}
+
+.total
+{
+    /* height: 50%; */
+    width: 100%;
+    /* background-color: #E0E0E0; */
+}
+
+.quan
+{
+    width: 20%;
+}
+
+#bag, #shoes
+{
+    color: #F2994A;
+    width: 50%;
+    padding: 0;
+}
+
+.ship
+{
+    margin-top: 70px;
+    font-weight: bold;
+    margin-left: 30px;
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    font-size: 1vw;
+    /* background-color: #505050; */
+}
+
+.Total
+{
+    margin-top: 40px;
+    font-weight: bold;
+    margin-left: 30px;
+    display: flex;
+    width: 20vw;
+    font-size: 1vw;
+    justify-content: space-between;
+}
+
+#TOTAL
+{
+    width: 30%;
+    margin-left: 60%;
+    font-size: 1vw;
+}
+
+@media (max-width: 1000px)
+{
+    .Whole
+    {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: space-between;
+    }
+
+    .container
+    {
+        width: 80vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .product
+    {
+        margin-top: 0px;
+        width: 80vw;
+        height: 90vw;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .bag_text
+    {
+        font-size: 20px;
+    }
+
+    .shoes_text
+    {
+        font-size: 20px;
+    }
+
+    .ship
+    {
+        margin-top: 70px;
+        font-weight: bold;
+        margin-left: 30px;
+        display: flex;
+        width: 80%;
+        justify-content: space-between;
+        font-size: 4vw;
+        /* background-color: #505050; */
+    }
+
+    .Total
+    {
+        margin-top: 40px;
+        font-weight: bold;
+        margin-left: 30px;
+        display: flex;
+        width: 40vw;
+        font-size: 4vw;
+        justify-content: space-between;
+    }
+
+    #TOTAL
+    {
+        width: 70%;
+        margin-left: 120%;
+        font-size: 4vw;
+    }
+
+    .input
+    {
+        height: 40px;
+    }
+}
+
+
+

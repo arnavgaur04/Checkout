@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400&display=swap" rel="stylesheet"> 
+    <title>Checkout</title>
+</head>
+<body style="font-family: 'Montserrat', sans-serif;">
+    <div class="top_text"><h1>Checkout</h1></div>
+    <div class="Whole">
+        <div class="container">
+                <div class="info">
+                        Contact information
+                        <div class="email">
+                            E-mail
+                            <div class="input_text">
+                                <input class="input Email" type="text" style="border-radius: 12px;width: 80%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Enter your email...">
+                            </div>
+                        </div>
+
+                        <div class="phone">
+                            Phone
+                            <div class="input_text">
+                                <input class="input Phone" type="text" style="border-radius: 12px;width: 80%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Enter your phone...">
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="shipping">
+                    Shipping address
+                    <div class="name">
+                        Full name
+                        <div class="input_text">
+                            <input class="input Name" type="text" style="border-radius: 12px;width: 80%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your name..">
+                        </div>
+                    </div>
+
+                    <div class="address">
+                        Address
+                        <div class="input_text">
+                            <input class="input Address" type="text" style="border-radius: 12px;width: 80%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your address..">
+                        </div>
+                    </div>
+                    
+                    <div class="city">
+                        City
+                        <div class="input_text">
+                            <input class="input City" type="text" style="border-radius: 12px;width: 80%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your city..">
+                        </div>
+                    </div>
+                    
+                    <div class="duo">
+                        <div class="country">
+                            Country
+                            <div class="input_text">
+                                <input list="Countries" class="input Country" type="text" style="border-radius: 12px;width: 60%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your country..">
+                                    <datalist id="Countries">
+                                        <option value="India">
+                                            India
+                                        </option>
+                                        <option value="New Zealand">
+                                            New Zealand
+                                        </option>
+                                        <option value="USA">
+                                            USA
+                                        </option>
+                                        <option value="UK">
+                                            UK
+                                        </option>
+                                        <option value="Sweden">
+                                            Sweden
+                                        </option>
+                                        <option value="Japan">
+                                            Japan
+                                        </option>
+                                        <option value="Russia">
+                                            Russia
+                                        </option>
+                                    </datalist>
+                            </div>
+                        </div>
+                        
+                        <div class="code">
+                            Postal code
+                            <div class="input_text">
+                                <input class="input Code" type="text" style="border-radius: 12px;width: 60%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your postal code..">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="save">
+                    <div><input type="checkbox"></div>
+                    <div class="save_text">
+                        Save this information for next time.
+                    </div>
+                </div>
+                
+                <div class="submit">
+                    <button onclick="submit()" style="font: 30px;height: 54px; width: 166px;background-color: #F2994A;color: white;font-family:  'Montserrat', sans-serif;">SUBMIT</button>
+                </div>
+        </div>
+
+        <div class="product">
+            <div class="product_one">
+                <div class="bag">
+                </div>
+                <div class="bag_text">
+                    Vintage Backbag
+
+                    <div class="price">
+                        <input type="text" id="bag" value="$54.99" style="font-size: 20px;font-size: 16px;font-family: 'Montserrat', sans-serif;"></input>
+                    </div>
+
+                    <div class="Quantity">
+                        <button onclick="add_bag();">+</button>
+                        <input class="quan" type="text" id="inc_bag" value="1" style="font-size: 16px;font-family: 'Montserrat', sans-serif;"></input>
+                        <button onclick="minus_bag();">-</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="product_two">
+                <div class="shoes">
+                </div>
+                <div class="shoes_text">
+                    Nike shoes
+
+                    <div class="price">
+                        <input type="text" id="shoes" value="$74.99" style="font-size: 20px;font-size: 16px;font-family: 'Montserrat', sans-serif;"></input>
+                    </div>
+
+                    <div class="Quantity">
+                        <button onclick="add_shoes();">+</button>
+                        <input class="quan" type="text" id="inc_shoes" value="1"  style="font-size: 16px;font-family: 'Montserrat', sans-serif;"></input>
+                        <button onclick="minus_shoes();">-</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="total">
+                <div class="ship">
+                    <div>
+                        Shipping
+                    </div>
+                    
+                    <div>
+                        $19
+                    </div>
+                </div>
+
+                <div class="Total">
+                    <div>
+                        Total
+                    </div>
+                    
+                    <div>
+                        <input type="text" id="TOTAL" value="$149.98" style="font-family: 'Montserrat', sans-serif;"></input>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="footer">
+        created by - arnavgaur04
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
