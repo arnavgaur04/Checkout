@@ -19,14 +19,14 @@
                         <div class="email">
                             E-mail
                             <div class="input_text">
-                                <input class="input Email" type="text" style="border-radius: 12px;width: 80%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Enter your email...">
+                                <input class="input Email" type="text" style="border-radius: 12px;width: 90%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Enter your email...">
                             </div>
                         </div>
 
                         <div class="phone">
                             Phone
                             <div class="input_text">
-                                <input class="input Phone" type="text" style="border-radius: 12px;width: 80%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Enter your phone...">
+                                <input class="input Phone" type="text" style="border-radius: 12px;width: 90%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Enter your phone...">
                         </div>
                     </div>
                 </div>
@@ -36,29 +36,29 @@
                     <div class="name">
                         Full name
                         <div class="input_text">
-                            <input class="input Name" type="text" style="border-radius: 12px;width: 80%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your name..">
+                            <input class="input Name" type="text" style="border-radius: 12px;width: 90%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your name..">
                         </div>
                     </div>
 
                     <div class="address">
                         Address
                         <div class="input_text">
-                            <input class="input Address" type="text" style="border-radius: 12px;width: 80%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your address..">
+                            <input class="input Address" type="text" style="border-radius: 12px;width: 90%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your address..">
                         </div>
                     </div>
                     
                     <div class="city">
                         City
                         <div class="input_text">
-                            <input class="input City" type="text" style="border-radius: 12px;width: 80%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your city..">
+                            <input class="input City" type="text" style="border-radius: 12px;width: 90%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your city..">
                         </div>
                     </div>
                     
-                    <div class="duo">
+                    <div class="duo" style="width: 100%;">
                         <div class="country">
                             Country
                             <div class="input_text">
-                                <input list="Countries" class="input Country" type="text" style="border-radius: 12px;width: 60%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your country..">
+                                <input list="Countries" class="input Country" type="text" style="border-radius: 12px;width: 75%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your country..">
                                     <datalist id="Countries">
                                         <option value="India">
                                             India
@@ -88,7 +88,7 @@
                         <div class="code">
                             Postal code
                             <div class="input_text">
-                                <input class="input Code" type="text" style="border-radius: 12px;width: 60%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your postal code..">
+                                <input class="input Code" type="text" style="border-radius: 12px;width: 75%;border: solid;border-width: 2px;border-color: #9e9e9e;" placeholder="Your postal code..">
                             </div>
                         </div>
                     </div>
@@ -101,8 +101,8 @@
                     </div>
                 </div>
                 
-                <div class="submit">
-                    <button onclick="submit()" style="font: 30px;height: 54px; width: 166px;background-color: #F2994A;color: white;font-family:  'Montserrat', sans-serif;">SUBMIT</button>
+                <div style="position: relative;">
+                    <button type="submit" class="submit" onclick="submit()" style="background-color: #F2994A;color: white;font-family:  'Montserrat', sans-serif;">Continue</button>
                 </div>
         </div>
 
@@ -110,17 +110,22 @@
             <div class="product_one">
                 <div class="bag">
                 </div>
-                <div class="bag_text">
+                <div class="bag_text" style="color: #4E5150;">
                     Vintage Backbag
 
                     <div class="price">
-                        <input type="text" id="bag" value="$54.99" style="font-size: 20px;font-size: 16px;font-family: 'Montserrat', sans-serif;"></input>
+                        <div style="width: 60%;">
+                            <input disabled type="text" id="bag" value="$54.99" style="font-family: 'Montserrat', sans-serif;"></input>
+                        </div>
+                        <div style="width: 40%;display: flex;flex-direction: column;justify-content: center;">
+                            <input disabled type="text" id="bagg" value="$94.99" style="font-family: 'Montserrat', sans-serif;text-decoration: line-through;color: black;width: 40%;text-align: center;"></input>
+                        </div>
                     </div>
 
                     <div class="Quantity">
-                        <button onclick="add_bag();">+</button>
-                        <input class="quan" type="text" id="inc_bag" value="1" style="font-size: 16px;font-family: 'Montserrat', sans-serif;"></input>
                         <button onclick="minus_bag();">-</button>
+                        <input disabled class="quan" type="text" id="inc_bag" value="1" style="font-size: 16px;font-family: 'Montserrat', sans-serif;"></input>
+                        <button onclick="add_bag();">+</button>
                     </div>
                 </div>
             </div>
@@ -128,17 +133,22 @@
             <div class="product_two">
                 <div class="shoes">
                 </div>
-                <div class="shoes_text">
+                <div class="shoes_text" style="color: #4E5150;">
                     Nike shoes
 
                     <div class="price">
-                        <input type="text" id="shoes" value="$74.99" style="font-size: 20px;font-size: 16px;font-family: 'Montserrat', sans-serif;"></input>
+                        <div style="width: 60%;">
+                            <input disabled type="text" id="shoes" value="$74.99" style="font-family: 'Montserrat', sans-serif;"></input>
+                        </div>
+                        <div style="width: 40%;display: flex;flex-direction: column;justify-content: center;">
+                            <input disabled type="text" id="shoess" value="$124.99" style="font-family: 'Montserrat', sans-serif;text-decoration: line-through;color: black;width: 40%;text-align: center;"></input>
+                        </div>
                     </div>
 
                     <div class="Quantity">
-                        <button onclick="add_shoes();">+</button>
-                        <input class="quan" type="text" id="inc_shoes" value="1"  style="font-size: 16px;font-family: 'Montserrat', sans-serif;"></input>
                         <button onclick="minus_shoes();">-</button>
+                        <input disabled class="quan" type="text" id="inc_shoes" value="1"  style="font-size: 16px;font-family: 'Montserrat', sans-serif;"></input>
+                        <button onclick="add_shoes();">+</button>
                     </div>
                 </div>
             </div>
@@ -149,18 +159,18 @@
                         Shipping
                     </div>
                     
-                    <div>
+                    <div style="margin-right: 8%;">
                         $19
                     </div>
                 </div>
 
                 <div class="Total">
-                    <div>
+                    <div class="up">
                         Total
                     </div>
                     
                     <div>
-                        <input type="text" id="TOTAL" value="$148.98" style="font-family: 'Montserrat', sans-serif;"></input>
+                        <input disabled type="text" id="TOTAL" value="$149.98" style="font-family: 'Montserrat', sans-serif;"></input>
                     </div>
                 </div>
             </div>
