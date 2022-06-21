@@ -325,6 +325,7 @@ input
 .total
 {
     width: 100%;
+    margin-top: 20%;
 }
 
 .quan
@@ -363,7 +364,9 @@ input
 
 .ship
 {
-    margin-top: 20%;
+    border-top: 1px solid black;
+    margin-top: 2%;
+    padding-top: 5px;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
@@ -375,7 +378,9 @@ input
 
 .Total
 {
-    margin-top: 15%;
+    border-top: 1px solid black;
+    margin-top: 12%;
+    padding-top: 5px;
     font-weight: bold;
     margin-left: auto;
     margin-right: auto;
@@ -442,7 +447,7 @@ input
 
     .ship
     {
-        margin-top: 20%;
+        margin-top: 2%;
         font-size: 3.5vw;
     }
 
@@ -450,7 +455,6 @@ input
     {
         margin-top: 7%;
         font-size: 3.5vw;
-        background-color: #505050;
     }
 
     #TOTAL
@@ -478,7 +482,6 @@ input
     {
         height: 40px;
         width: 100px;
-        font-size: 20px; 
     }
 }
 
