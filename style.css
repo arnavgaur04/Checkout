@@ -379,7 +379,7 @@ input
 .Total
 {
     border-top: 1px solid black;
-    margin-top: 12%;
+    margin-top: 10%;
     padding-top: 5px;
     font-weight: bold;
     margin-left: auto;
@@ -453,7 +453,7 @@ input
 
     .Total
     {
-        margin-top: 7%;
+        margin-top: 5%;
         font-size: 3.5vw;
     }
 
